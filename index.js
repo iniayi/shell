@@ -149,7 +149,7 @@ const register = (device, nomor, token, email, nama1, nama2) => new Promise((res
             "firstName":nama1,
             "identifiers":[{
                 "type":"mobile",
-                "value":nomor},{"type":"email","value":email}],"lastName":nama2}],"referralCode":"GANTIREFFMU","statusLabel":"Active",
+                "value":nomor},{"type":"email","value":email}],"lastName":nama2}],"referralCode":"1bhxs30aj","statusLabel":"Active",
         "statusLabelReason":"App Registration"})
 })
     .then(res => res.json())
